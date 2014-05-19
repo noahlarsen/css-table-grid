@@ -20,7 +20,7 @@ h1 {
   font: italic 900 3rem/1 'playfair display', serif;
 }
 
-.guide, .guide2 {
+.guide, .guide2, .guide3 {
   position: absolute;
   top: 0;
   left: 50%;
@@ -31,11 +31,15 @@ h1 {
 }
 
 .guide {
-  margin-left: -196px;
+  margin-left: -1px;
 }
 
 .guide2 {
-  margin-left: -1px;
+  margin-left: -98px;
+}
+
+.guide3 {
+  margin-left: -196px;
 }
 
 
