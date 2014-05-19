@@ -148,7 +148,7 @@ h1 {
 }
 
 [class*=col-lg]:nth-child(odd) {
-  background: pink url('scanlines.png') repeat 0 0;
+  background-color: pink;
 }
 
 .col-lg-1 {
