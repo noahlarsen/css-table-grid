@@ -20,6 +20,24 @@ h1 {
   font: italic 900 3rem/1 'playfair display', serif;
 }
 
+.guide, .guide2 {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  bottom: 0;
+  z-index: 10;
+  width: 1px;
+  background-color: cyan;
+}
+
+.guide {
+  margin-left: -196px;
+}
+
+.guide2 {
+  margin-left: -1px;
+}
+
 
 /* GRID */
 
@@ -49,7 +67,7 @@ h1 {
 }
 
 .col:nth-child(odd) {
-  background: pink url('scanlines.png') repeat 0 0;
+  background-color: pink;
 }
 
 .col-1 {
